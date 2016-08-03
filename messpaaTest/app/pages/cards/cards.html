@@ -1,0 +1,177 @@
+<ion-navbar *navbar hideBackButton class="show-navbar">
+  <ion-title>Cards</ion-title>
+</ion-navbar>
+
+<ion-content class="cards-bg">
+
+  <ion-card>
+
+    <ion-card-content>
+      This is just your basic card with some text to boot. Like it?  Keep scrolling...
+    </ion-card-content>
+
+  </ion-card>
+
+  <ion-card>
+    <ion-card-header>
+      Header
+    </ion-card-header>
+    <ion-card-content>
+      The British use the term "header", but the American term "head-shot" the English simply refuse to adopt.
+    </ion-card-content>
+  </ion-card>
+
+  <ion-title>Card Lists</ion-title>
+  <ion-card class="cards-list-demo">
+    <ion-card-header>
+      Explore Nearby
+    </ion-card-header>
+
+    <ion-list>
+      <button ion-item>
+        <ion-icon name='cart' item-left></ion-icon>
+        Shopping
+      </button>
+
+      <button ion-item>
+        <ion-icon name='medical' item-left></ion-icon>
+        Hospital
+      </button>
+
+      <button ion-item>
+        <ion-icon name='cafe' item-left></ion-icon>
+        Cafe
+      </button>
+
+      <button ion-item>
+        <ion-icon name='paw' item-left></ion-icon>
+        Dog Park
+      </button>
+
+      <button ion-item>
+        <ion-icon name='beer' item-left></ion-icon>
+        Pub
+      </button>
+
+      <button ion-item>
+        <ion-icon name='planet' item-left></ion-icon>
+        Space
+      </button>
+
+    </ion-list>
+  </ion-card>
+
+  <ion-title>Card Images</ion-title>
+  <ion-card>
+  <img src="images/mesut.png"/>
+    <ion-card-content>
+      <h2 class="card-title">
+        Nine Inch Nails Live
+      </h2>
+      <p>
+        The most popular industrial group ever, and largely responsible for bringing the music to a mass audience.
+      </p>
+    </ion-card-content>
+
+    <ion-row no-padding>
+      <ion-col>
+        <button clear small danger>
+          <ion-icon name='star'></ion-icon>
+          Favorite
+        </button>
+      </ion-col>
+      <ion-col text-center>
+        <button clear small danger>
+          <ion-icon name='musical-notes'></ion-icon>
+          Listen
+        </button>
+      </ion-col>
+      <ion-col text-right>
+        <button clear small danger>
+          <ion-icon name='share-alt'></ion-icon>
+          Share
+        </button>
+      </ion-col>
+    </ion-row>
+
+  </ion-card>
+
+  <ion-title>Background Images</ion-title>
+  <ion-content class="card-background-page">
+  <ion-card>
+    <img src="images/cronaldo.png"/>
+    <div class="card-title">São Paulo</div>
+    <div class="card-subtitle">40 Goals</div>
+  </ion-card>
+  </ion-content>
+
+  <ion-title>Social Card</ion-title>
+    <ion-card class="cards-bg social-cards">
+
+      <ion-item>
+        <ion-avatar item-left>
+          <img src="images/icon.png">
+        </ion-avatar>
+        <h2>Marty McFly</h2>
+        <p>November 5, 1955</p>
+      </ion-item>
+
+      <img src="images/messi.png">
+
+      <ion-card-content>
+        <p>Wait a minute. Wait a minute, Doc. Uhhh... Are you telling me that you built a time machine... out of a DeLorean?! Whoa. This is heavy.</p>
+      </ion-card-content>
+
+      <ion-row>
+        <ion-col>
+          <button primary clear small>
+            <ion-icon name='thumbs-up'></ion-icon>
+            <div>12 Likes</div>
+          </button>
+        </ion-col>
+        <ion-col>
+          <button primary clear small>
+            <ion-icon name='text'></ion-icon>
+            <div>4 Comments</div>
+          </button>
+        </ion-col>
+        <ion-col center text-center>
+          <ion-note>
+            11h ago
+          </ion-note>
+        </ion-col>
+      </ion-row>
+
+    </ion-card>
+
+  <ion-title>Map Card</ion-title>
+
+    <ion-card class="adv-map">
+      <div style="position: relative">
+        <img src="images/icon.png">
+        <button fab fab-right fab-top class="fab-map">
+          <ion-icon name='pin'></ion-icon>
+        </button>
+      </div>
+      <ion-item>
+        <ion-icon subtle large item-left name='football'></ion-icon>
+        <h2>Museum of Football</h2>
+        <p>11 N. Way St, Madison, WI 53703</p>
+      </ion-item>
+      <ion-item>
+        <ion-icon subtle large item-left name='wine'></ion-icon>
+        <h2>Institute of Fine Cocktails</h2>
+        <p>14 S. Hop Avenue, Madison, WI 53703</p>
+      </ion-item>
+      <ion-item actions>
+        <span item-left secondary class="item-bold">18 min</span>
+        <span item-left subtle>(2.6 mi)</span>
+        <button primary clear item-right>
+          <ion-icon name='navigate'></ion-icon>
+          Start
+        </button>
+      </ion-item>
+
+    </ion-card>
+
+</ion-content>

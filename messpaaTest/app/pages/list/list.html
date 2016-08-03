@@ -1,0 +1,361 @@
+<ion-navbar *navbar hideBackButton class="show-navbar">
+  <ion-title>Lists</ion-title>
+</ion-navbar>
+
+<ion-content>
+  <ion-list>
+    <ion-item>Pokémon Yellow</ion-item>
+    <ion-item>Super Metroid</ion-item>
+    <ion-item>Mega Man X</ion-item>
+  </ion-list>
+
+  <ion-title>No-Lines</ion-title>
+  <ion-list no-lines>
+    <ion-item>Pokémon Yellow</ion-item>
+    <ion-item>Super Metroid</ion-item>
+    <ion-item>Mega Man X</ion-item>
+  </ion-list>
+
+
+  <ion-title>Inset List</ion-title>
+  <ion-list inset>
+    <ion-item>Pokémon Yellow</ion-item>
+    <ion-item>Super Metroid</ion-item>
+    <ion-item>Mega Man X</ion-item>
+  </ion-list>
+
+  <ion-title>List Dividers</ion-title>
+  <ion-item-group>
+    <ion-item-divider light>A</ion-item-divider>
+    <ion-item>Angola</ion-item>
+    <ion-item>Argentina</ion-item>
+    <ion-item>Armenia</ion-item>
+    <ion-item>Australia</ion-item>
+    <ion-item>Austria</ion-item>
+  </ion-item-group>
+
+  <ion-item-group>
+    <ion-item-divider light>B</ion-item-divider>
+    <ion-item>Bangladesh</ion-item>
+    <ion-item>Belarus</ion-item>
+    <ion-item>Belgium</ion-item>
+    <ion-item>Bhutan</ion-item>
+    <ion-item>Bolivia</ion-item>
+    <ion-item>Brazil</ion-item>
+  </ion-item-group>
+
+
+  <ion-title>List Headers</ion-title>
+  <ion-list>
+    <ion-list-header>Comedy</ion-list-header>
+    <ion-item>Airplane!</ion-item>
+    <ion-item>Caddyshack</ion-item>
+    <ion-item>Coming To America</ion-item>
+  </ion-list>
+
+
+
+  <ion-title>Icon List</ion-title>
+  <ion-list no-border>
+
+    <ion-list-header>
+      Classes
+    </ion-list-header>
+
+    <ion-item>
+      <ion-icon name='planet' item-left></ion-icon>
+      Astronomy
+      <ion-note item-right>
+        To the moon
+      </ion-note>
+    </ion-item>
+
+    <ion-item>
+      <ion-toggle checked="false"></ion-toggle>
+      <ion-label>
+        Muggle Studies
+      </ion-label>
+      <ion-icon name='body' item-left></ion-icon>
+    </ion-item>
+
+    <ion-item>
+      <ion-icon name='leaf' item-left></ion-icon>
+      Herbology
+      <ion-icon name='rose' item-right secondary></ion-icon>
+    </ion-item>
+
+    <ion-item>
+      <ion-icon name='flask' item-left></ion-icon>
+      Potions
+      <ion-note item-right>
+        Poisonous
+      </ion-note>
+    </ion-item>
+
+  </ion-list>
+
+
+
+  <ion-title>Avatar List</ion-title>
+  <ion-list>
+
+    <ion-list-header>Today</ion-list-header>
+
+    <ion-item>
+      <ion-avatar item-left>
+        <img src="images/icon.png">
+      </ion-avatar>
+      <h2>Cher</h2>
+      <p>Ugh. As if.</p>
+    </ion-item>
+
+    <ion-item>
+      <ion-avatar item-left>
+        <img src="images/messi.png">
+      </ion-avatar>
+      <h2>Dionne</h2>
+      <p>Mr. Hall was way harsh on my report card.</p>
+    </ion-item>
+
+    <ion-item>
+      <ion-avatar item-left>
+        <img src="images/icon.png">
+      </ion-avatar>
+      <h2>Murray</h2>
+      <p>Excuse me, "Ms. Dione."</p>
+    </ion-item>
+
+    <ion-item>
+      <ion-avatar item-left>
+        <img src="images/icon.png">
+      </ion-avatar>
+      <h2>Josh</h2>
+      <p>You're such a superficial space cadet!</p>
+    </ion-item>
+
+  </ion-list>
+
+
+  <ion-title>Multiline Items</ion-title>
+  <ion-list>
+
+    <ion-list-header>
+      Today
+    </ion-list-header>
+
+    <ion-item>
+      <ion-avatar item-left>
+        <img src="images/icon.png">
+      </ion-avatar>
+      <h2>Finn</h2>
+      <h3>Don't Know What To Do!</h3>
+      <p>I've had a pretty messed up day. If we just...</p>
+    </ion-item>
+
+    <ion-item>
+      <ion-avatar item-left>
+        <img src="images/icon.png">
+      </ion-avatar>
+      <h2>Han</h2>
+      <h3>Look, Kid</h3>
+      <p>I've got enough on my plate as it is, and I...</p>
+    </ion-item>
+
+    <ion-item>
+      <ion-avatar item-left>
+        <img src="images/icon.png">
+      </ion-avatar>
+      <h2>Rey</h2>
+      <h3>Found Something</h3>
+      <p>Was scavaging around the other day and...</p>
+    </ion-item>
+
+  </ion-list>
+
+
+  <ion-title>Sliding Items</ion-title>
+  <ion-list>
+    <ion-list-header>
+      Busters
+    </ion-list-header>
+
+    <ion-item-sliding>
+      <ion-item>
+        <ion-avatar item-left>
+          <img src="images/icon.png">
+        </ion-avatar>
+        <h2>Venkman</h2>
+        <p>Back off man, I'm a scientist.</p>
+      </ion-item>
+      <ion-item-options>
+        <button light>
+          <ion-icon name="ios-more"></ion-icon>
+          More
+        </button>
+        <button primary>
+          <ion-icon name="text"></ion-icon>
+          Text
+        </button>
+        <button secondary>
+          <ion-icon name="call"></ion-icon>
+          Call
+        </button>
+      </ion-item-options>
+    </ion-item-sliding>
+
+
+    <ion-item-sliding>
+      <ion-item>
+        <ion-avatar item-left>
+          <img src="images/icon.png">
+        </ion-avatar>
+        <h2>Egon</h2>
+        <p>We're gonna go full stream.</p>
+      </ion-item>
+      <ion-item-options>
+        <button light>
+          <ion-icon name="ios-more"></ion-icon>
+          More
+        </button>
+        <button primary>
+          <ion-icon name="text"></ion-icon>
+          Text
+        </button>
+        <button secondary>
+          <ion-icon name="call"></ion-icon>
+          Call
+        </button>
+      </ion-item-options>
+    </ion-item-sliding>
+
+    <ion-item-sliding>
+      <ion-item>
+        <ion-avatar item-left>
+          <img src="images/icon.png">
+        </ion-avatar>
+        <h2>Ray</h2>
+        <p>Ugly little spud, isn't he?</p>
+      </ion-item>
+      <ion-item-options>
+        <button light>
+          <ion-icon name="ios-more"></ion-icon>
+          More
+        </button>
+        <button primary>
+          <ion-icon name="text"></ion-icon>
+          Text
+        </button>
+        <button secondary>
+          <ion-icon name="call"></ion-icon>
+          Call
+        </button>
+      </ion-item-options>
+    </ion-item-sliding>
+
+    <ion-item-sliding>
+      <ion-item>
+        <ion-avatar item-left>
+          <img src="images/icon.png">
+        </ion-avatar>
+        <h2>Winston</h2>
+        <p>That's a big Twinkie.</p>
+      </ion-item>
+      <ion-item-options>
+        <button light>
+          <ion-icon name="ios-more"></ion-icon>
+          More
+        </button>
+        <button primary>
+          <ion-icon name="text"></ion-icon>
+          Text
+        </button>
+        <button secondary>
+          <ion-icon name="call"></ion-icon>
+          Call
+        </button>
+      </ion-item-options>
+    </ion-item-sliding>
+
+    <ion-item-sliding>
+      <ion-item>
+        <ion-avatar item-left>
+          <img src="images/icon.png">
+        </ion-avatar>
+        <h2>Tully</h2>
+        <p>Okay, who brought the dog?</p>
+      </ion-item>
+      <ion-item-options>
+        <button light>
+          <ion-icon name="ios-more"></ion-icon>
+          More
+        </button>
+        <button primary>
+          <ion-icon name="text"></ion-icon>
+          Text
+        </button>
+        <button secondary>
+          <ion-icon name="call"></ion-icon>
+          Call
+        </button>
+      </ion-item-options>
+    </ion-item-sliding>
+
+    <ion-item-sliding>
+      <ion-item>
+        <ion-avatar item-left>
+          <img src="images/icon.png">
+        </ion-avatar>
+        <h2>Dana</h2>
+        <p>I am The Gatekeeper!</p>
+      </ion-item>
+      <ion-item-options>
+        <button light>
+          <ion-icon name="ios-more"></ion-icon>
+          More
+        </button>
+        <button primary>
+          <ion-icon name="text"></ion-icon>
+          Text
+        </button>
+        <button secondary>
+          <ion-icon name="call"></ion-icon>
+          Call
+        </button>
+      </ion-item-options>
+    </ion-item-sliding>
+
+  </ion-list>
+
+
+  <ion-title>Thumbnails</ion-title>
+  <ion-list>
+
+    <ion-item>
+      <ion-thumbnail item-left>
+        <img src="images/messi.png">
+      </ion-thumbnail>
+      <h2>My Neighbor Totoro</h2>
+      <p>Hayao Miyazaki • 1988</p>
+      <button clear item-right>View</button>
+    </ion-item>
+
+    <ion-item>
+      <ion-thumbnail item-left>
+        <img src="images/messi.png">
+      </ion-thumbnail>
+      <h2>Raiders of the Lost Ark</h2>
+      <p>Steven Spielberg • 1981</p>
+      <button clear item-right>View</button>
+    </ion-item>
+
+    <ion-item>
+      <ion-thumbnail item-left>
+        <img src="images/messi.png">
+      </ion-thumbnail>
+      <h2>Ghostbusters</h2>
+      <p>Ivan Reitman • 1984</p>
+      <button clear item-right>View</button>
+    </ion-item>
+    </ion-list>
+
+</ion-content>

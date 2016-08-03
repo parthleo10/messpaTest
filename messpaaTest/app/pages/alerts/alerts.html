@@ -1,0 +1,11 @@
+<ion-navbar *navbar>
+  <ion-title>Alerts</ion-title>
+</ion-navbar>
+
+<ion-content padding>
+  <button dark (click)="doAlert()">Show Basic Alert</button><br>
+  <button secondary (click)="doPrompt()">Show Prompt Alert</button><br>
+  <button primary (click)="doConfirm()">Show Confirm Alert</button><br>
+  <button light (click)="doRadio()">Show Radio Alert</button><br>
+  <button danger (click)="doCheckbox()">Show Checkbox Alert</button>
+</ion-content>
