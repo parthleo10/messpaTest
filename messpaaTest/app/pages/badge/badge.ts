@@ -1,11 +1,10 @@
-import {Page, NavController} from 'ionic-angular';
+//import {Page, NavController} from 'ionic-angular';
+import {Component} from '@angular/core';
 
-@Page({
+@Component({
   templateUrl: 'build/pages/badge/badge.html',
 })
 export class BadgePage {
-  constructor(public nav: NavController) {}
-
-
+  //constructor(public nav: NavController) {}
 
 }

@@ -1,12 +1,12 @@
-import {Page, NavController} from 'ionic-angular';
-
+//import {Page, NavController} from 'ionic-angular';
+import {Component} from '@angular/core';
 /*
   Generated class for the GesturesPage page.
 
   See http://ionicframework.com/docs/v2/components/#navigation for more info on
   Ionic pages and navigation.
 */
-@Page({
+@Component({
   templateUrl: 'build/pages/gestures/gestures.html',
 })
 export class GesturesPage {
@@ -16,7 +16,7 @@ export class GesturesPage {
   public swipe: number = 0;
   public tap: number = 0;
 
-  constructor(public nav: NavController) {}
+  //constructor(public nav: NavController) {}
 
   pressEvent(e) {
     this.press++

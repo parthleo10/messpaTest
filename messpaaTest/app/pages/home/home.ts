@@ -1,4 +1,5 @@
-import {Platform, Page, ActionSheet, NavController} from 'ionic-angular';
+import {Component} from '@angular/core';
+import {Platform, ActionSheet, NavController} from 'ionic-angular';
 import {AlertsPage} from '../alerts/alerts';
 import {BadgePage} from '../badge/badge';
 import {ButtonsPage} from '../buttons/buttons';
@@ -13,7 +14,7 @@ import {ListPage} from "../list/list";
 
 
 
-@Page({
+@Component({
   templateUrl: 'build/pages/home/home.html'
 })
 

@@ -1,6 +1,7 @@
-import {Page,Alert, NavController} from 'ionic-angular';
+import {Alert, NavController} from 'ionic-angular';
+import {Component} from '@angular/core';
 
-@Page({
+@Component({
   templateUrl: 'build/pages/alerts/alerts.html',
 })
 export class AlertsPage {
@@ -176,19 +177,19 @@ export class AlertsPage {
     alert.addInput({
       type: 'checkbox',
       label: 'Naboo',
-      value: 'value6'
+      value: 'value7'
     });
 
     alert.addInput({
       type: 'checkbox',
       label: 'Takodana',
-      value: 'value6'
+      value: 'value8'
     });
 
     alert.addInput({
       type: 'checkbox',
       label: 'Tatooine',
-      value: 'value6'
+      value: 'value9'
     });
 
     alert.addButton('Cancel');

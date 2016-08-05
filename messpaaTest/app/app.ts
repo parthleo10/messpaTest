@@ -1,12 +1,15 @@
-import {App, Platform,Storage} from 'ionic-angular';
+//import {App, Platform,Storage} from 'ionic-angular';
+import {Component} from '@angular/core';
+import {ionicBootstrap, Platform,Storage} from 'ionic-angular';
 import {StatusBar} from 'ionic-native';
 import {HomePage} from './pages/home/home';
 import {IntroPage} from './pages/intro/intro';
 import {LocalStorage} from "../node_modules/ionic-angular/platform/storage/local-storage";
 
-@App({
+@Component({
   template: '<ion-nav [root]="rootPage"></ion-nav>',
-  config: {} // http://ionicframework.com/docs/v2/api/config/Config/
+  //templateUrl: "build/pages/intro/intro.html"
+  //config: {} // http://ionicframework.com/docs/v2/api/config/Config/
 })
 export class MyApp {
   public rootPage;
@@ -30,3 +33,6 @@ export class MyApp {
     });
   }
 }
+ionicBootstrap(MyApp,[], {
+  tabbarPlacement: 'bottom'
+});
